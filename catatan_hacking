@@ -1,0 +1,16 @@
+1. dirb
+2. burpsuit --> intercept on
+				send to intruder
+				capture the header for sqli
+3. sqlmap --> login to ssh using user & pass from sqli
+4. hydra
+
+
+xss
+1. send to intruder lalu ganti host dengan contoh kta "hello" atau hapus semua ganti bing.com
+2. telusuri sampe akhir lalu lihat apakah ada match(toko online)
+
+Open redirect
+	xxx.com/redirect=https://google.com
+	xxx.com//google.com
+	xxx.com/googl.com
